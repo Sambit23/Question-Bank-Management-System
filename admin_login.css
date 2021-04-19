@@ -1,0 +1,48 @@
+#row2 {
+    color: black;
+    background: rgba(18, 136, 48, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    padding: 5rem;
+}
+
+#login {
+    padding-top: -55rem;
+}
+
+#img {
+    height: 27.5rem;
+    width: 70vh;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+    color: wheat;
+}
+
+#nave:hover {
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* li:hover {
+    border-bottom: 5px solid rgba(159, 216, 68, 0.938);
+} */
+
+.content-area {
+    width: 100%;
+    top: 100px;
+    background: rgba(225, 225, 225, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    height: 100vh;
+    margin-top: 2rem;
+}
+
+#log {
+    justify-content: center;
+}

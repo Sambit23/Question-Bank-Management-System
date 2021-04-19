@@ -1,0 +1,413 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        text-align: center;
+        background-image: url(Images/5.jpg);
+    }
+    
+    .body {
+        background-image: url(Images/5.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    /* li:hover {
+        border-bottom: 5px solid rgba(159, 216, 68, 0.938);
+    } */
+    
+    #nave:hover {
+        box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    #nv-hvr:hover {
+        color: blue;
+    }
+    /* .banner-area {
+        position: fixed;
+        width: 100%;
+        height: 1000vh;
+        background-image: url(sunset_sea_sky_landscape_5550x3700.jpg);
+        margin-top: -10rem;
+    }
+     */
+    
+    #text2 {
+        z-index: 1;
+        font-size: 50px;
+        font-weight: 1000;
+        color: white;
+        text-align: left;
+        margin-top: 10rem;
+    }
+    
+    #b-img {
+        z-index: 1;
+        margin-top: 10rem;
+    }
+    
+    #b-img-size {
+        margin-top: -5rem;
+        height: 25rem;
+        width: 40rem;
+    }
+    
+    #card {
+        margin-top: 10rem;
+    }
+    
+    .content-area {
+        width: 100%;
+        position: relative;
+        top: 10px;
+        background: rgba(225, 225, 225, 0.2);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        height: auto;
+        margin-top: 2rem;
+    }
+    /* .content-area1 {
+        width: 100%;
+        position: relative;
+        top: -100px;
+        background: rgba(225, 225, 225, 0.2);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        height: 70vh;
+    } */
+    
+    .content-area2 {
+        width: 100%;
+        position: fixed;
+        top: -100px;
+        background-image: url(Images/5.jpg);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        height: 700vh;
+    }
+    
+    #button {
+        margin-left: 25rem;
+    }
+    /*Services*/
+    
+    #services {
+        justify-content: center;
+    }
+    
+    .services .icon-box {
+        text-align: center;
+        border: 1px solid white;
+        padding: 80px 20px;
+        transition: all ease-in-out 0.3s;
+        background: rgba(225, 225, 225, 0.2);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    }
+    
+    .services .icon-box .icon i {
+        color: #151515;
+        font-size: 28px;
+        transition: ease-in-out 0.3s;
+    }
+    
+    .services .icon-box h4 {
+        font-weight: 700;
+        margin-bottom: 15px;
+        font-size: 24px;
+    }
+    
+    .section-title {
+        color: blanchedalmond;
+    }
+    
+    .services .icon-box h4 a {
+        color: #151515;
+        transition: ease-in-out 0.3s;
+    }
+    
+    .services .icon-box h4 a:hover {
+        color: #ffc451;
+    }
+    
+    .services .icon-box p {
+        line-height: 24px;
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+    
+    .services .icon-box:hover {
+        /* box-shadow: 0 0 10px rgb(10, 158, 226), 0 0 40px rgb(10, 158, 226), 0 0 80px rgb(10, 158, 226); */
+        transform: translateY(-10px);
+    }
+    
+    #img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .row {
+        margin-top: 5rem;
+    }
+    
+    .section-title {
+        text-align: center;
+        text-shadow: black;
+    }
+    /* #carousel-img {
+        width: 100%;
+    } */
+    
+    #carousel-pg {
+        height: 110%;
+    }
+    /* Wave */
+    
+    #section1 {
+        position: relative;
+        left: 0.5rem;
+        width: 100%;
+        height: 12vh;
+        margin-left: -15px;
+        padding: 0px -30px 0px -30px;
+        background: transparent;
+        overflow: hidden;
+    }
+    
+    #section1 .wave {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        height: 100px;
+        background: url(wave.png);
+        background-size: 1000px 100px;
+    }
+    
+    #section1 .wave.wave1 {
+        animation: animate1 30s linear infinite;
+        z-index: 1000;
+        left: -4px;
+        width: 200rem;
+        opacity: 0.6;
+        background-color: transparent;
+        animation-delay: 0s;
+        bottom: 0;
+    }
+    
+    #section1 .wave.wave2 {
+        animation: animate2 15s linear infinite;
+        z-index: 999;
+        left: -4px;
+        width: 200rem;
+        opacity: 0.5;
+        animation-delay: -5s;
+        bottom: 100px;
+    }
+    
+    #section1 .wave.wave3 {
+        animation: animate3 25s linear infinite;
+        z-index: 998;
+        left: -4px;
+        width: 200rem;
+        opacity: 0.4;
+        animation-delay: -2s;
+        bottom: 180px;
+    }
+    
+    #section1 .wave.wave4 {
+        animation: animate4 5s linear infinite;
+        z-index: 997;
+        left: -4px;
+        width: 200rem;
+        opacity: 0.7;
+        animation-delay: -2s;
+        background-color: transparent;
+        bottom: 290px;
+    }
+    
+    @keyframes animate1 {
+        0% {
+            background-position-x: 0;
+        }
+        100% {
+            background-position-x: 1000px;
+        }
+    }
+    
+    @keyframes animate2 {
+        0% {
+            background-position-x: 0;
+        }
+        100% {
+            background-position-x: -1000px;
+        }
+    }
+    
+    @keyframes animate3 {
+        0% {
+            background-position-x: 0;
+        }
+        100% {
+            background-position-x: -1000px;
+        }
+    }
+    
+    @keyframes animate4 {
+        0% {
+            background-position-x: 0;
+        }
+        100% {
+            background-position-x: 1000px;
+        }
+    }
+    /* Box */
+    /* #box1:hover {
+        color: #255784;
+        background: transparent;
+        box-shadow: 0 0 10px yellow, 0 0 40px yellow, 0 0 80px yellow;
+        transition-delay: .1s;
+    }
+    
+    #box2:hover {
+        color: #255784;
+        background: transparent;
+        box-shadow: 0 0 10px pink, 0 0 40px pink, 0 0 80px pink;
+        transition-delay: .1s;
+    }
+    
+    #box3:hover {
+        color: #255784;
+        background: transparent;
+        box-shadow: 0 0 10px lightseagreen, 0 0 40px lightseagreen, 0 0 80px lightseagreen;
+        transition-delay: .1s;
+    }
+    
+    #box4:hover {
+        color: #255784;
+        background: transparent;
+        box-shadow: 0 0 10px violet, 0 0 40px violet, 0 0 80px violet;
+        transition-delay: .1s;
+    }
+    
+    #box5:hover {
+        color: #255784;
+        background: transparent;
+        box-shadow: 0 0 10px orange, 0 0 40px orange, 0 0 80px orange;
+        transition-delay: .1s;
+    }
+    
+    #box6:hover {
+        color: #255784;
+        background: transparent;
+        box-shadow: 0 0 10px orchid, 0 0 40px orchid, 0 0 80px orchid;
+        transition-delay: .1s;
+    }
+    
+    #box7:hover {
+        color: #255784;
+        background: transparent;
+        box-shadow: 0 0 10px steelblue, 0 0 40px steelblue, 0 0 80px steelblue;
+        transition-delay: .1s;
+    }
+    
+    #box8:hover {
+        color: #255784;
+        background: transparent;
+        box-shadow: 0 0 10px red, 0 0 40px red, 0 0 80px red;
+        transition-delay: .1s;
+    }
+    
+    #box9:hover {
+        color: #255784;
+        background: transparent;
+        box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
+        transition-delay: .1s;
+    }
+    
+    #box10:hover {
+        color: #255784;
+        background: transparent;
+        box-shadow: 0 0 10px hotpink, 0 0 40px hotpink, 0 0 80px hotpink;
+        transition-delay: .1s;
+    }
+    
+    .box div {
+        position: relative;
+        width: 10px;
+        height: 10px;
+        background-color: transparent;
+        border: 6px solid rgba(225, 225, 225, .8);
+        border-radius: 400px;
+    }
+    
+    #size {
+        height: 2px;
+    }
+    
+    .box div:nth-child(1) {
+        top: 29%;
+        right: 20%;
+        animation: animate 10s linear infinite;
+    }
+    
+    .box div:nth-child(2) {
+        top: 29%;
+        left: 40%;
+        animation: animate 7s linear infinite;
+    }
+    
+    .box div:nth-child(3) {
+        top: 29%;
+        left: 60%;
+        animation: animate 9s linear infinite;
+    }
+    
+    .box div:nth-child(4) {
+        top: 29%;
+        left: 49%;
+        animation: animate 10s linear infinite;
+    }
+    
+    .box div:nth-child(5) {
+        top: 29%;
+        left: 21%;
+        animation: animate 6s linear infinite;
+    }
+    
+    .box div:nth-child(6) {
+        top: 29%;
+        left: 90%;
+        animation: animate 6s linear infinite;
+    }
+    
+    .box div:nth-child(7) {
+        top: 29%;
+        left: 10%;
+        animation: animate 12s linear infinite;
+    }
+    
+    .box div:nth-child(8) {
+        top: 29%;
+        left: 5%;
+        animation: animate 16s linear infinite;
+    }
+    
+    .box div:nth-child(9) {
+        top: 20%;
+        left: 10%;
+        animation: animate 9s linear infinite;
+    }
+    
+    .box div:nth-child(10) {
+        top: 10%;
+        left: 10%;
+        animation: animate 5s linear infinite;
+    }
+    
+    @keyframes animate {
+        0% {
+            transform: scale(0) translateY(0) rotate(0);
+            opacity: 0;
+        }
+        100% {
+            transform: scale(1.3) translateY(320px) rotate(0deg);
+            opacity: 10;
+        }
+    } */
